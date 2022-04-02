@@ -28,9 +28,9 @@ public class DepartmentDaoJDBC implements DepartmentDao {
         try {
             st = conn.prepareStatement(
                     "INSERT INTO department "
-                    + "Name " 
+                    + "(Name) " 
                     + "VALUES " 
-                    + "?",
+                    + "(?)",
                     Statement.RETURN_GENERATED_KEYS);
             
             st.setString(1, obj.getName());
@@ -65,7 +65,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
             st = conn.prepareStatement(
                     "UPDATE department " 
                     + "SET Name = ? " 
-                    + "WHERE Id = ? ",
+                    + "WHERE Id = ?",
                     Statement.RETURN_GENERATED_KEYS);
             
             st.setString(1, obj.getName());
@@ -98,7 +98,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
         PreparedStatement st = null;
 
         try{
-            st = conn.prepareStatement("DELETE FROM department WHERE Id = ? ");
+            st = conn.prepareStatement("DELETE FROM department WHERE Id = ?");
 
             st.setInt(1, id);
 
@@ -151,7 +151,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
 
         try {
             st = conn.prepareStatement(
-                    "SELECT * FROM department ORDER BY Name ");
+                    "SELECT * FROM department ORDER BY Name");
 
             rs = st.executeQuery();
 
