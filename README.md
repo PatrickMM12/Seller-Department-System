@@ -26,16 +26,14 @@ Projeto JAVA de uma aplicação desktop com interface gráfica utilizando JavaFX
 #### About
 ![image](https://user-images.githubusercontent.com/62666413/161445298-59e6fdaf-66ea-45c2-9640-d8f510af517e.png)
 
-#
+
 ## Class Diagram
 ![image](https://user-images.githubusercontent.com/62666413/161445603-677eeac3-6b9f-4663-8a8f-4698caf6259d.png)
 
 
-#
 ## Getting Started
 
 Here is a guideline to help you get started to write Java code in your computer.
-
 
 ## Pack files 
 - JAR file
@@ -47,7 +45,6 @@ Here is a guideline to help you get started to write Java code in your computer.
 - JavaFX SDK 
 
 - Java SDK 
-
 
 ## Instalation
 
@@ -76,7 +73,6 @@ javafx.controls,javafx.fxml -cp Seller-Department-System.jar application.Main
 Start in:
  
 - C:\appfolder
-#
 
 ## Folder Structure
 
