@@ -35,7 +35,7 @@ Projeto JAVA de uma aplicação desktop com interface gráfica utilizando JavaFX
 
 Here is a guideline to help you get started to write Java code in your computer.
 
-## Pack files 
+### Pack files 
 - JAR file
 
 - db.properties
@@ -46,9 +46,9 @@ Here is a guideline to help you get started to write Java code in your computer.
 
 - Java SDK 
 
-## Instalation
+### Instalation
 
-### Checklist: 
+#### Checklist: 
 - Install Java: https://www.oracle.com/technetwork/java/javase/downloads/index.html
   > Setup JAVA_HOME (ex: C:\Program Files\Java\jdk-11.0.3) 
 
@@ -58,13 +58,13 @@ Here is a guideline to help you get started to write Java code in your computer.
     > Place MySQL Connector in lib folder 
 
 - Copy JAR & db.properties 
-## Run app: 
+### Run app: 
 
-### Bat File (optional) 
+#### Bat File (optional) 
 
 > java --module-path %PATH_TO_FX% --add-modules javafx.controls,javafx.fxml -cp Seller-Department-System.jar application.Main
 
-### Windows Shortcut (optional) 
+#### Windows Shortcut (optional) 
 
 Target: 
 > "C:\Program Files\Java\jdk-11.0.3\bin\java.exe" --module-path %PATH_TO_FX% --add-modules 
